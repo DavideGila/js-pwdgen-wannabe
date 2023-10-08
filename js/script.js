@@ -5,4 +5,4 @@ let colore = prompt ('Dimmi il tuo colore preferito');
 let password = `<p> La tua password è ${nome}${cognome}${colore}${numfisso} </p>`;
 
 document.getElementById('testo').innerHTML = password;
-console.log(document.getElementId('testo'));
+console.log(document.getElementById('testo'));
